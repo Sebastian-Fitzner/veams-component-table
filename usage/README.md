@@ -8,15 +8,15 @@ This component is based on the blueprint of Veams-Components.
 
 ``` hbs
 {{! @INSERT :: START @id: table, @tag: component-partial }}
-{{#with table.tableWithHead}}
+{{#with table-bp.tableWithHead}}
 	{{> c-table}}
 {{/with}}
 
-{{#with table.tableHeadLeft}}
+{{#with table-bp.tableHeadLeft}}
 	{{> c-table}}
 {{/with}}
 
-{{#with table.tableWithoutHead}}
+{{#with table-bp.tableWithoutHead}}
 	{{> c-table}}
 {{/with}}
 {{! @INSERT :: END }}
