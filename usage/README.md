@@ -7,7 +7,7 @@ This component is based on the blueprint of Veams-Components.
 ### Include: Page
 
 ``` hbs
-{{! @INSERT :: START @id: table, @tag: component }}
+{{! @INSERT :: START @id: table, @tag: component-partial }}
 {{#with table.tableWithHead}}
 	{{> c-table}}
 {{/with}}
@@ -25,7 +25,7 @@ This component is based on the blueprint of Veams-Components.
 ### Include: SCSS
 
 ``` scss
-// @INSERT :: START @id: scss-import, @tag: component
+// @INSERT :: START @id: scss-import
 @import "components/_c-table";
 // @INSERT :: END
 ```
