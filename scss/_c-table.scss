@@ -31,6 +31,7 @@ Global Styles
 		font-weight: normal;
 		text-align: left;
 	}
+
 	.table__data {
 		padding: 15px 20px;
 		text-align: left;
@@ -46,6 +47,7 @@ Global Styles
 	}
 
 	.is-bold {
+		font-weight: bold;
 	}
 }
 
@@ -57,9 +59,11 @@ Context: Zebra Table
 	Sub Elements
 	----------------------- */
 	.table__row {
+
 		&:nth-child(n+1) {
 			background-color: transparent;
 		}
+
 		&:nth-child(2n+2) {
 			background-color: #F5F5F5;
 		}

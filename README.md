@@ -1,31 +1,50 @@
-# Table
+<p align="right">
+    <a href="https://badge.fury.io/bo/veams-component-table"><img src="https://badge.fury.io/bo/veams-component-table.svg" alt="Bower version" height="20"></a>
+    <a href="https://gitter.im/Sebastian-Fitzner/Veams?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/Sebastian-Fitzner/Veams.svg" alt="Gitter Chat" /></a>
+</p>
 
-This component is based on the blueprint of Veams-Components.
+# Article
 
-## Usage
+## Description
 
-### Include: Page
+A simple table component.
 
-``` hbs
-{{! @INSERT :: START @id: table, @tag: component-partial }}
-{{#with table-bp.tableWithHead}}
-	{{> c-table}}
-{{/with}}
+----
 
-{{#with table-bp.tableHeadLeft}}
-	{{> c-table}}
-{{/with}}
+## Fields
 
-{{#with table-bp.tableWithoutHead}}
-	{{> c-table}}
-{{/with}}
-{{! @INSERT :: END }}
-```
+### General
+- settings.tableContextClass {String} [default] - Just pass a string
+- settings.tableClasses {String} - Modifier classes
 
-### Include: SCSS
+### Content
+- content.tableCaption {String} - A caption for the table
+- content.tableHeader {Object} - An object which contains the headings
+- content.tableHeader.tableRows {Array} - Rows in header
 
-``` scss
-// @INSERT :: START @tag: scss-import 
-@import "components/_c-table";
-// @INSERT :: END
-```
+---
+
+- content.tableHeader.tableRows[].settings.trClass {String} - Row class in header
+- content.tableHeader.tableRows[].content.tableCells {Array} - Cells in header
+
+---
+
+- content.tableHeader.tableRows[].content.tableCells[].settings.thTag {Boolean} - Definition of th or td
+- content.tableHeader.tableRows[].content.tableCells[].settings.cellClass {Boolean} - Cell class in header
+- content.tableHeader.tableRows[].content.tableCells[].content.cellContent {String} - Cell content in header
+
+---
+
+- content.tableBody {Object} - An object which contains the body
+- content.tableBody.tableRows {Array} - Rows in body
+
+---
+
+- content.tableBody.tableRows[].settings.trClass {String} - Row class in header
+- content.tableBody.tableRows[].content.tableCells {Array} - Cells in header
+
+---
+
+- content.tableBody.tableRows[].content.tableCells[].settings.thTag {Boolean} - Definition of th or td
+- content.tableBody.tableRows[].content.tableCells[].settings.cellClass {Boolean} - Cell class in header
+- content.tableBody.tableRows[].content.tableCells[].content.cellContent {String} - Cell content in header
