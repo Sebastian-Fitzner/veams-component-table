@@ -18,7 +18,7 @@
 @import "components/_c-table";
 // @INSERT :: END
 
-// @INSERT :: START @tag: scss-import-self-contained
+// @INSERT :: START @tag: scss-self-contained-import
 @import "../templating/partials/components/table/scss/_c-table";
 // @INSERT :: END
 ```
