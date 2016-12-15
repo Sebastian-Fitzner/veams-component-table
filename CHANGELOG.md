@@ -1,3 +1,6 @@
+### v2.0.4
+- Update documentation
+
 ### v2.0.3
 - Update documentation
 

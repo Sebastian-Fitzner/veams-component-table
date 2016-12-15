@@ -9,7 +9,11 @@
 
 The `<table>` element represents data with more than one dimension, in the form of a table.
 
-The `<table>` element takes part in the table model. Tables have rows, columns, and cells given by their descendants. The rows and columns form a grid; a table's cells must completely cover that grid without overlap.
+The specs says:
+
+> Tables have rows, columns, and cells given by their descendants. The rows and columns form a grid; a table's cells must completely cover that grid without overlap.
+
+Tables must not be used as layout aids
 
 -----------
 
