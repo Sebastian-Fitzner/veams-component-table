@@ -7,44 +7,52 @@
 
 ## Description
 
-A simple table component.
+The `<table>` element represents data with more than one dimension, in the form of a table.
 
-----
+The `<table>` element takes part in the table model. Tables have rows, columns, and cells given by their descendants. The rows and columns form a grid; a table's cells must completely cover that grid without overlap.
+
+-----------
+
+## Installation
+
+### Installation with Veams
+
+`veams install vc table`
+
+### Installation with Bower
+
+`bower install veams-component-table --save`
+
+-----------
 
 ## Fields
 
-### General
-- settings.tableContextClass {String} [default] - Just pass a string
-- settings.tableClasses {String} - Modifier classes
+### `c-table.hbs`
 
-### Content
-- content.tableCaption {String} - A caption for the table
-- content.tableHeader {Object} - An object which contains the headings
-- content.tableHeader.tableRows {Array} - Rows in header
+#### Settings
+- settings.tableContextClass {`String`} [default] - _Context class of component._
+- settings.tableClasses {`String`} - _Modifier classes for component._
 
----
+#### Content
+- content.tableCaption {`String`} - _A caption for the table._
+- content.tableHeader {`Object`} - _An object which contains the headings._
+- content.tableHeader.tableRows {`Array`} - _Rows in header._
+- content.tableBody {`Object`} - _An object which contains the body._
+- content.tableBody.tableRows {`Array`} - _Rows in body._
 
-- content.tableHeader.tableRows[].settings.trClass {String} - Row class in header
-- content.tableHeader.tableRows[].content.tableCells {Array} - Cells in header
+### `c-table__row.hbs`
 
----
+#### Settings
+- settings.trClass {`String`} - _Row classes._
 
-- content.tableHeader.tableRows[].content.tableCells[].settings.thTag {Boolean} - Definition of th or td
-- content.tableHeader.tableRows[].content.tableCells[].settings.cellClass {Boolean} - Cell class in header
-- content.tableHeader.tableRows[].content.tableCells[].content.cellContent {String} - Cell content in header
+#### Content
+- content.tableCells {`Array`} - _Table cells._
 
----
+### `c-table__cell.hbs`
 
-- content.tableBody {Object} - An object which contains the body
-- content.tableBody.tableRows {Array} - Rows in body
+#### Settings
+- settings.thTag {`Boolean`} - _Definition of th or td._
+- settings.cellClass {`String`} - _Cell classes._
 
----
-
-- content.tableBody.tableRows[].settings.trClass {String} - Row class in header
-- content.tableBody.tableRows[].content.tableCells {Array} - Cells in header
-
----
-
-- content.tableBody.tableRows[].content.tableCells[].settings.thTag {Boolean} - Definition of th or td
-- content.tableBody.tableRows[].content.tableCells[].settings.cellClass {Boolean} - Cell class in header
-- content.tableBody.tableRows[].content.tableCells[].content.cellContent {String} - Cell content in header
+#### Content
+- content.cellContent {`String`} - _Cell content._
