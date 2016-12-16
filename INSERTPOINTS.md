@@ -3,10 +3,8 @@
 
 ``` hbs
 {{! @INSERT :: START @id: table, @tag: component-partial }}
-{{#with table-bp}}
-	{{#each variations}}
-		{{> c-table content=this.content settings=this.settings}}
-	{{/each}}
+{{#with table-bp.variations.tableWithHead}}
+    {{> c-table content=this.content settings=this.settings}}
 {{/with}}
 {{! @INSERT :: END }}
 ```
