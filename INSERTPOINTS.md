@@ -12,11 +12,7 @@
 ### Include: SCSS
 
 ``` scss
-// @INSERT :: START @tag: scss-import
-@import "components/_c-table";
-// @INSERT :: END
-
 // @INSERT :: START @tag: scss-self-contained-import
-@import "../templating/partials/components/table/scss/_c-table";
+@import "../components/table/scss/_c-table";
 // @INSERT :: END
 ```
