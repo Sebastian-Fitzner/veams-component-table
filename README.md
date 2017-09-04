@@ -1,5 +1,5 @@
 <p align="right">
-    <a href="https://badge.fury.io/bo/veams-component-table"><img src="https://badge.fury.io/bo/veams-component-table.svg" alt="Bower version" height="20"></a>
+    <a href="https://badge.fury.io/js/veams-component-table"><img src="https://badge.fury.io/js/veams-component-table.svg" alt="npm version" height="18"></a>
     <a href="https://gitter.im/Sebastian-Fitzner/Veams?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/Sebastian-Fitzner/Veams.svg" alt="Gitter Chat" /></a>
 </p>
 
@@ -22,10 +22,6 @@ Tables must not be used as layout aids
 ### Installation with Veams
 
 `veams install vc table`
-
-### Installation with Bower
-
-`bower install veams-component-table --save`
 
 -----------
 
