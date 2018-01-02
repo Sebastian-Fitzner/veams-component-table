@@ -27,7 +27,7 @@ Tables must not be used as layout aids
 
 ## Fields
 
-### `c-table.hbs`
+### `table.hbs`
 
 #### Settings
 - settings.tableContextClass {`String`} [default] - _Context class of component._
@@ -40,7 +40,7 @@ Tables must not be used as layout aids
 - content.tableBody {`Object`} - _An object which contains the body._
 - content.tableBody.tableRows {`Array`} - _Rows in body._
 
-### `c-table__row.hbs`
+### `table__row.hbs`
 
 #### Settings
 - settings.trClass {`String`} - _Row classes._
@@ -48,7 +48,7 @@ Tables must not be used as layout aids
 #### Content
 - content.tableCells {`Array`} - _Table cells._
 
-### `c-table__cell.hbs`
+### `table__cell.hbs`
 
 #### Settings
 - settings.thTag {`Boolean`} - _Definition of th or td._

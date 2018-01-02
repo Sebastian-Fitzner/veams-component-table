@@ -1,13 +1,12 @@
 {
 	"type": "component",
-	"displayName": "c-table",
 	"contextData": "table-bp",
 	"layout": "lyt-docs",
 	"subTemplates": [
-		"c-table__cell.hbs",
-		"c-table__row.hbs"
+		"templates/table__cell.hbs",
+		"templates/table__row.hbs"
 	],
 	"scssFiles": [
-		"_c-table.scss"
+		"styles/_table.scss"
 	]
 }

@@ -11,14 +11,14 @@
 		{{#if content.tableHeader}}
 			<thead class="table__head">
 				{{#each content.tableHeader.tableRows}}
-					{{> c-table__row settings=this.settings content=this.content }}
+					{{> table__row settings=this.settings content=this.content }}
 				{{/each}}
 			</thead>
 		{{/if}}
 
 		<tbody class="table__body">
 			{{#each content.tableBody.tableRows}}
-				{{> c-table__row settings=this.settings content=this.content }}
+				{{> table__row settings=this.settings content=this.content }}
 			{{/each}}
 		</tbody>
 	</table>
