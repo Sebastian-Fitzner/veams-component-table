@@ -1,4 +1,5 @@
-<{{#unless settings.thTag}}td{{else}}th{{/unless}} class="table__data{{#unless
-		settings.thTag}} is-td{{else}} is-th{{/unless}}{{#if
-		settings.cellClass}} {{settings.cellClass}}{{/if}}">{{content.cellContent}}</{{#unless
-		settings.thTag}}td{{else}}th{{/unless}}>
+<{{#unless settings.thTag}}td{{else}}th{{/unless}}
+		class="table__data{{#unless settings.thTag}} is-td{{else}} is-th{{/unless}}{{#if
+				settings.cellClass}} {{settings.cellClass}}{{/if}}">
+	{{content.cellContent}}
+</{{#unless settings.thTag}}td{{else}}th{{/unless}}>

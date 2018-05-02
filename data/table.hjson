@@ -6,7 +6,7 @@
 				"sectionCenter": true
 			},
 			"settings": {
-				"tableContextClass": "zebra",
+				"tableContextClass": "default",
 				"tableClasses": false
 			},
 			"content": {
@@ -25,7 +25,7 @@
 											"cellClass": false
 										},
 										"content": {
-											"cellContent": "1"
+											"cellContent": "Header 1"
 										}
 									},
 									{
@@ -34,7 +34,7 @@
 											"cellClass": false
 										},
 										"content": {
-											"cellContent": "2"
+											"cellContent": "Header 2"
 										}
 									},
 									{
@@ -43,7 +43,7 @@
 											"cellClass": false
 										},
 										"content": {
-											"cellContent": "3"
+											"cellContent": "Header 3"
 										}
 									},
 									{
@@ -52,7 +52,7 @@
 											"cellClass": false
 										},
 										"content": {
-											"cellContent": "4"
+											"cellContent": "Header 4"
 										}
 									}
 								]
@@ -162,7 +162,7 @@
 				"sectionCenter": true
 			},
 			"settings": {
-				"tableContextClass": "zebra",
+				"tableContextClass": "",
 				"tableClasses": false
 			},
 			"content": {
@@ -182,7 +182,7 @@
 											"cellClass": false
 										},
 										"content": {
-											"cellContent": "Table with"
+											"cellContent": "Header 1"
 										}
 									},
 									{
@@ -227,7 +227,7 @@
 											"cellClass": false
 										},
 										"content": {
-											"cellContent": "left head"
+											"cellContent": "Header 2"
 										}
 									},
 									{
@@ -270,7 +270,7 @@
 				"sectionCenter": true
 			},
 			"settings": {
-				"tableContextClass": "zebra",
+				"tableContextClass": "",
 				"tableClasses": false
 			},
 			"content": {
@@ -290,7 +290,7 @@
 											"cellClass": false
 										},
 										"content": {
-											"cellContent": "Table"
+											"cellContent": "Table Data 1"
 										}
 									},
 									{
@@ -299,7 +299,7 @@
 											"cellClass": false
 										},
 										"content": {
-											"cellContent": "without"
+											"cellContent": "Table Data 2"
 										}
 									},
 									{
@@ -308,7 +308,7 @@
 											"cellClass": false
 										},
 										"content": {
-											"cellContent": "head"
+											"cellContent": "Table Data 3"
 										}
 									}
 								]

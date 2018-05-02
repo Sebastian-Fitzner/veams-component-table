@@ -1,5 +1,5 @@
 <p align="right">
-    <a href="https://badge.fury.io/js/veams-component-table"><img src="https://badge.fury.io/js/veams-component-table.svg" alt="npm version" height="18"></a>
+    <a href="https://badge.fury.io/js/@veams/component-table"><img src="https://badge.fury.io/js/@veams/component-table.svg" alt="npm version" height="18"></a>
     <a href="https://gitter.im/Sebastian-Fitzner/Veams?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/Sebastian-Fitzner/Veams.svg" alt="Gitter Chat" /></a>
 </p>
 
@@ -21,7 +21,12 @@ Tables must not be used as layout aids
 
 ### Installation with Veams
 
-`veams install vc table`
+``` bash
+veams install component table
+```
+``` bash
+veams -i c table
+```
 
 -----------
 
@@ -30,29 +35,47 @@ Tables must not be used as layout aids
 ### `table.hbs`
 
 #### Settings
-- settings.tableContextClass {`String`} [default] - _Context class of component._
-- settings.tableClasses {`String`} - _Modifier classes for component._
+
+| Parameter | Type | Value | Description |
+|:--- | :---: |:---: | :--- |
+| settings.tableContextClass | String | `default` | Context class of component. |
+| settings.tableClasses | String | | Modifier classes for component. |
 
 #### Content
-- content.tableCaption {`String`} - _A caption for the table._
-- content.tableHeader {`Object`} - _An object which contains the headings._
-- content.tableHeader.tableRows {`Array`} - _Rows in header._
-- content.tableBody {`Object`} - _An object which contains the body._
-- content.tableBody.tableRows {`Array`} - _Rows in body._
+
+| Parameter | Type | Description |
+|:--- |:---:|:--- |
+| content.tableCaption | String | A caption for the table. |
+| content.tableHeader | Object | An object which contains the headings. |
+| content.tableHeader.tableRows | Array | Rows in header. |
+| content.tableBody | Object | An object which contains the body. |
+| content.tableBody.tableRows | Array | Rows in body. |
 
 ### `table__row.hbs`
 
 #### Settings
-- settings.trClass {`String`} - _Row classes._
+
+| Parameter | Type | Description |
+|:--- |:---:|:--- |
+| settings.trClass | String | Row classes. |
 
 #### Content
-- content.tableCells {`Array`} - _Table cells._
+
+| Parameter | Type | Description |
+|:--- |:---:|:--- |
+| content.tableCells | Array | Table cells. |
 
 ### `table__cell.hbs`
 
 #### Settings
-- settings.thTag {`Boolean`} - _Definition of th or td._
-- settings.cellClass {`String`} - _Cell classes._
+
+| Parameter | Type | Description |
+|:--- |:---:|:--- |
+| settings.thTag | Boolean | Definition of th or td. |
+| settings.cellClass | String | Cell classes. |
 
 #### Content
-- content.cellContent {`String`} - _Cell content._
+
+| Parameter | Type | Description |
+|:--- |:---:|:--- |
+| content.cellContent | String | Cell content. |

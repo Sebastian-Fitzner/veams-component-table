@@ -1,4 +1,4 @@
-<div class="c-table{{#if settings.tableContextClass}}--{{settings.tableContextClass}}{{/if}}{{#if
+<div class="c-table{{#if settings.tableContextClass}}--{{settings.tableContextClass}}{{else}}--default{{/if}}{{#if
 		settings.tableClasses}} {{settings.tableClasses}}{{/if}}"
      data-css="c-table">
 	<table class="table__content">
@@ -10,16 +10,16 @@
 
 		{{#if content.tableHeader}}
 			<thead class="table__head">
-				{{#each content.tableHeader.tableRows}}
-					{{> table__row settings=this.settings content=this.content }}
-				{{/each}}
+			{{#each content.tableHeader.tableRows}}
+				{{> table__row settings=this.settings content=this.content }}
+			{{/each}}
 			</thead>
 		{{/if}}
 
 		<tbody class="table__body">
-			{{#each content.tableBody.tableRows}}
-				{{> table__row settings=this.settings content=this.content }}
-			{{/each}}
+		{{#each content.tableBody.tableRows}}
+			{{> table__row settings=this.settings content=this.content }}
+		{{/each}}
 		</tbody>
 	</table>
 </div>

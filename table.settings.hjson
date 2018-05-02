@@ -1,0 +1,12 @@
+{
+	"type": "component",
+	"contextData": "table",
+	"layout": "lyt-docs",
+	"subTemplates": [
+		"table__cell.hbs",
+		"table__row.hbs"
+	],
+	"scssFiles": [
+		"_table.scss"
+	]
+}
