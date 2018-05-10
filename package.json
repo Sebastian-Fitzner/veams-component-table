@@ -1,6 +1,6 @@
 {
 	"name": "@veams/component-table",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "The `<table>` element represents data with more than one dimension, in the form of a table.",
 	"repository": {
 		"type": "git",
